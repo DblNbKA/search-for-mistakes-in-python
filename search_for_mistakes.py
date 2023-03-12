@@ -2,7 +2,6 @@ import enchant
 from enchant.checker import SpellChecker
 from enchant.tokenize import EmailFilter, URLFilter
 
-
 print(enchant.list_languages())
 binput = input('choice language:')
 ainput = input('Enter the sentences or words, and I will look and show the errors:')
